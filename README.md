@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Mamaearth Returns & Growth Intelligence Pipeline
 
 **Capstone:** Data Analytics with AI & Gen AI · E&ICT Academy, IIT Roorkee  
