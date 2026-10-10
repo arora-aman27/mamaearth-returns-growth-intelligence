@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local database and generated intermediates
+mamaearth.db
+analysis/cleaned_orders.csv
+analysis/merged_analysis.csv
+analysis/monthly_revenue.json
+
+# Secrets
+.env
+.env.*
+!.env.example

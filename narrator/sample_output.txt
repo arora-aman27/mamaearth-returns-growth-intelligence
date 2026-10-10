@@ -1,0 +1,18 @@
+Narrative mode: offline
+Situation
+The cleaned order analysis reports revenue of ₹97,358.30 across the deduplicated dataset. After removing duplicate-submit rows, this is the reconciled figure to use for operational review. The outlier-corrected monthly series peaks in 2026-03 at ₹20,318.90.
+
+Complication
+Returns are not evenly distributed across payment methods: COD has a 44.4% return rate, compared with 14.7% for CARD and 18.9% for UPI. The highest-risk segment is COD in Tier-2 cities at 54.5%. The raw revenue total was ₹99,860.20; the ₹2,501.90 reconciliation delta is explained by five duplicate rows. January appears inflated at ₹29,582.10, but its corrected revenue is ₹11,637.10 after excluding the two bulk-order outliers.
+
+Resolution
+Prioritize a COD-focused review in Tier-2 cities: audit delivery confirmation, customer contact, and return-reason capture before changing policy. Use ₹97,358.30 as the cleaned revenue baseline, monitor the 44.4% COD return rate against CARD and UPI, and track the outlier-corrected peak of 2026-03 at ₹20,318.90. Treat the payment-method pattern as an association to investigate, not proof that payment method causes returns.
+
+=== Numeric accuracy checker ===
+PASS — cleaned revenue: 97358.30
+PASS — COD return rate: 44.4
+PASS — COD + Tier-2 risk rate: 54.5
+PASS — duplicate reconciliation delta: 2501.90
+PASS — March peak revenue: 20318.90
+PASS — true peak month label: 2026-03
+Saved narrative sample to narrator/sample_output.txt
