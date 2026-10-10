@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mamaearth Returns & Growth Intelligence Pipeline
 
 **Capstone:** Data Analytics with AI & Gen AI · E&ICT Academy, IIT Roorkee  
@@ -182,4 +183,3 @@ unset GOOGLE_API_KEY GEMINI_API_KEY
 python narrator/generate_narrative.py
 
 git status --short
-```
